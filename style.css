@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,381;1,14..32,381&display=swap');
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: 30px !important;
+}
+
+.links a{
+    text-decoration: none;
+    color: grey !important;
+}
+
+.btn-primary{
+    background: transparent;
+    border-color: grey;
+}
+
+.mr-t{
+    margin-top: 40px;
+}
+
+.main-heading p{
+    margin-top: 20px
+}
+
+.main-heading .btn{
+    margin-top: 20px
+}
+
+.mr-l{
+    display: flex;
+    justify-content: center;
+}
+
+    .logo1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.col-md-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B9FF66;
+    border-radius: 10px;
+}
+
+/* 
+.service h3{
+    background-color: rgb(185 255 102);;
+} */
+.col-2{
+    background-color: rgb(185 255 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.green-heading{
+    background-color: rgb(185 255 102) ;
+    border-radius: 30px !important;
+}
+
+
+.col-6{
+    margin-left: 35px;
+}
+
+.m0{
+    margin: 0;
+}
+
+.bg-green{
+    background-color: rgb(185 255 102) !important;
+    padding: 15px;
+}
+
+.bg-grey{
+    background-color: #F3F3F3 !important;
+}
+
+.mt-9{
+    margin-top: 90px !important;
+}
+.brd{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+h5{
+    float: left;
+}
+
+.d-flex{
+    justify-content: space-between;
+}
+
+.col-5{
+    padding: 20px;
+}
+
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 10px auto;
+
+}
+
+.font-18{
+    font-size: 25px;
+}
+
+.radius-25{
+    border-radius: 25px !important;
+    box-shadow: 0px 10px 0px black;
+
+}
+.sec-2Heading{
+    font-size: 25px;
+    /* padding: 10px; */
+}
+
+.step-by{
+    
+    font-size: 18px;
+    /* max-width: 550px; */
+    /* background-color: crimson; */
+}
+
+.sec-3-para{
+font-size: 18px;
+}
+
+.img-w{
+    width: 400px;
+    right: -190px;
+    top: 70px;
+}
+
+.w-45{
+    width: 45% !important;
+}
+
+.line1{
+    border: 1px solid white;
+}
